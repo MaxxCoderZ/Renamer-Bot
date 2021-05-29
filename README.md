@@ -1,19 +1,19 @@
 ## Renamer Bot 
 
-An Multi purpose Bot Which Can :-
+<b>An Multi purpose Bot Which Supports Telegram File Covert and File to vedio Convert With love From CoderzHeX ❤
 
 ✅ Rename Telegram Files 
 
 ✅ Convert Files into Video
 
-✅ Added Force For Join Updates Channel 😇 
+✅ Added Force For Join Updates Channel </b>
 
 ### You can tap the Deploy To Heroku button below to deploy straight to Heroku!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaxxCoderZ/Renamer-Bot)
 
-If you Find Any Bugs Or Want to Give Your Feedbacks Then Kindly Contact Me Through [Telegram ](https://telegram.dog/No_OnE_Kn0wS_Me) 
-Also Support Our Channel [Mai_bOTs](https://telegram.dog/Mai_bOTs) 
+If you Find Any Bugs Or Want to Give Your Feedbacks Then Kindly Contact We Through [Telegram ](https://telegram.dog/CoderzSupport) 
+Also Support Our Channel [CoderzHEX](https://telegram.dog/CoderzHEX) 
 
 ## Credits, and Thanks to Beloved Developers ;
 
