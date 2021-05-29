@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K & @No_OnE_Kn0wS_Me
+# (c) Shrimadhav U K & @MaxxcoderZ
 
 # the logging things
 import logging
@@ -13,7 +13,7 @@ import pyrogram
 import os
 import sqlite3
 from pyrogram import filters
-from pyrogram import Client as Mai_bOTs
+from pyrogram import Client as CoderzHEX
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, Message
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel 
 
@@ -38,7 +38,7 @@ def GetExpiryDate(chat_id):
     return expires_at
 
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["help"]))
+@CoderzHEX.on_message(pyrogram.filters.command(["help"]))
 async def help_user(bot, update):
     # logger.info(update)
     #TRChatBase(update.from_user.id, update.text, "/help")
@@ -76,8 +76,8 @@ async def help_user(bot, update):
         )
     )       
 
-@Mai_bOTs.on_callback_query()
-async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+@CoderzHEX.on_callback_query()
+async def cb_handler(client: CoderzHEX , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
