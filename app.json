@@ -32,9 +32,13 @@
       "description": "Get this value from https://my.telegram.org or (@UseTGXbot)",
       "value": ""
     },
+    "START": {
+      "description": "Type ur start Text Here.",
+      "value": "Hai this is a simple Telegram Renamer Bot With permenant Thumbnail Support"
+    },
     "AUTH_USERS": {
-      "description": "allow only pre-defined users to use this bot !",
-      "value": ""
+      "description": "allow only pre-defined users to use this bot ! Username Like @MaxxCoderZ",
+      "value": "@MaxxCoderZ"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
