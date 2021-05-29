@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K & @No_OnE_Kn0wS_Me
+# (c) Shrimadhav U K & @MaxxcoderZ
 
 # the logging things
 import logging
@@ -23,7 +23,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import filters 
-from pyrogram import Client as Mai_bOTs
+from pyrogram import Client as CoderzHEX
 
 #from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import progress_for_pyrogram
@@ -37,8 +37,8 @@ from hachoir.parser import createParser
 from PIL import Image
 from database.database import *
 
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited)
+#@CoderzHEX.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
+#@CoderzHEX.on_message((filters.document | filters.video) & ~filters.edited)
 #async def newfile(bot, update):
     #if update.document:
         #await bot.forward_messages(
@@ -53,7 +53,7 @@ from database.database import *
              #message_ids = update.message_id
        #)  
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["rename"]))
+@CoderzHEX.on_message(pyrogram.filters.command(["rename"]))
 async def rename_doc(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
