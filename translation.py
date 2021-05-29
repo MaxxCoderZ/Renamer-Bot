@@ -1,12 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b> Hello {} ,
-
- I'm A Simple File Renamer Bot With Permanent Thumbnail support!💯</b> \n
-
-<b>For More Help Click /Help</b> \n 
-
-<b>You Must Subscribe To my updates channel In Order To use me 😇</b> \n 
-"""
+    START_TEXT = str(Config.START) + "\n\nMade with ❤ From @CoderzHEX"
 
     RENAME_403_ERR = "What Are You Doing? Bruuh!!"
     BANNED_USER_TEXT = "Sorry!! But Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @coderzSupport For more Details.. " 
