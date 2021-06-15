@@ -1,4 +1,6 @@
-## Renamer Bot 
+If u found any bugs while direct deplpoing to heroku you can just add congig.py after forking this repostirie and just setup your bot through that, so your bot will not be down due to heroku suspension 😪  
+
+ ## Renamer Bot 
 
 <b>An Multi purpose Bot Which Supports Telegram File Covert and File to vedio Convert With love From CoderzHeX ❤
 
